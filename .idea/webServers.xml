@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5ba99e96-3387-4d47-9af6-06fa8c291ece" name="11" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="G:\网站\lantingStock\WebContent" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

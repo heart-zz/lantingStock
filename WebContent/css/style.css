@@ -1,0 +1,217 @@
+@CHARSET "UTF-8";
+html, body{ width: 100%; height: 100%; padding: 0; margin: 0;overflow: hidden;font-size:1.5em;}
+#north-panel{
+    background:#2e8b57;
+	text-align: center;
+	max-height: 68px;
+}
+input{
+	border: 1px solid #1E90FF;
+}
+
+li{
+	list-style: none;
+	line-height: 22px;
+}
+
+#north-panel .menu{
+	width:33%;
+	min-width:50px;
+	float: right;
+	margin-right: 10px;
+	color: white;
+	font-size: 1.3em;
+}
+
+#north-panel .menu .block{
+	width: 120px;
+	height:40px;
+	padding: 20px 0 0 0;
+	margin-right:5px;
+	float: left;
+}
+
+#north-panel .menu .block:HOVER{
+	background-color: #008B45;
+}
+
+#north-panel .menu .block a{
+	text-decoration: none;
+	color: white;
+}
+
+#north-panel img{
+	margin-left:30px;
+	float: left;
+	border: none;
+}
+
+#normalWork a{
+	float:left;
+	padding-left: 20px;
+}
+
+#indextips{
+	color:red;
+}
+ 
+a:HOVER{
+	font-weight: bold;
+}
+.om-borderlayout-region-west .om-borderlayout-region-header{
+		padding: 0px;
+		border: 0;
+		height: 28px;
+		line-height: 28px;
+		border-right:1px solid #99A8BB;
+		font-size: 14px;
+		font-weight: bold;
+		cursor: pointer;
+		}
+.om-borderlayout-region-west .om-panel-body{
+		padding: 0;
+}
+.nav-panel {
+	padding: 0;
+}
+.nav-panel div.nav-item{
+	line-height: 25px;
+	font-size: 13px;
+	padding-left: 10px;
+	cursor: pointer;
+	list-style-type: none;
+}
+.nav-panel div.nav-item:hover{
+	border: 1px solid #99A8BC;
+	background-color: #C4D6EC;
+	font-weight: bold;
+}
+
+.nav-panel div.user:hover{
+	background-position: 19px 3px;
+}
+
+.seperator{
+	border-top:1px solid #adadad; height: 3px; line-height: 3px; margin-top: 15px;
+}
+
+table{empty-cells: show;}
+.myTable{width: 100%;border-collapse: collapse;margin-top: 15px;}
+.myTable td{font-size: 1.1em;border: 1px solid #4682B4;padding: 3px 7px 2px 7px;min-width: 60px;}
+.myTable th{font-size: 1.2em;border: 1px solid #ADD8E6;font-weight:bold;text-align: center;padding-top: 5px;padding-bottom: 4px;background-color: #0066CC;color:#ffffff;min-width: 60px;}
+.myTable tr.alt {color:#000000;background-color: #EAF2D3;min-width: 150px;}
+.myTable .title{background-color: #4682B4;color:white;text-align: center;}
+.myTable a{padding-right: 15px;color: #CD5C5C}
+.myTable a:HOVER{color:#FF0000;}
+
+
+.leftlabel{
+	margin-right: 10px;
+	text-align: right;
+	float:left;
+	min-width: 120px;
+}
+
+
+.leftinput{
+	border-style: solid;
+	border-color: #1e90ff;
+	border-width: 1px;
+	height: 20px;
+}
+
+#searchInput{
+	background: url("../images/search.png") no-repeat scroll #FFFFFF;
+	padding-left: 20px;
+	margin:5px 8px 0 8px;
+	border-style: none;
+}
+
+#purchaseAppForm input{
+	width:120px;
+	border-style: solid;
+	border-color: #00868B;
+	border-width: 1px;
+}
+
+#purchaseAppForm textarea{
+	border-style: solid;
+	border-color: #00868B;
+	border-width: 1px;
+}
+
+#purchaseAppTip{
+	position: relative;
+	float: right;
+	margin-right:50px;
+	margin-top:-160px;
+	border:solid 2px #BEBEBE;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+.width60{
+	width:60%;
+}
+
+.width30{
+	width:30%;
+}
+
+.width45{
+	width:45%;
+}
+
+.width_45{
+	width:45px;
+}
+
+.width_60{
+	width:60px;
+}
+
+.width_90{
+	width:90px;
+}
+
+.width_120{
+	width:120px;
+}
+
+.width_150{
+	width:150px;
+}
+
+
+.width_200{
+	width:200px;
+}
+h3{
+	color:red;
+}
+
+.fontRed{
+	color:red;
+}
+
+.icon1{
+	background: url("../images/icon1.png") no-repeat;
+}
+
+.icon2{
+	background: url("../images/icon2.png") no-repeat;
+}
+
+.icon3{
+	background: url("../images/icon3.png") no-repeat;
+}
+
+.icon4{
+	background: url("../images/icon4.png") no-repeat;
+}

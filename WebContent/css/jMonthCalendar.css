@@ -1,0 +1,22 @@
+﻿#jMonthCalendar { position:center; }
+.MonthlyCalendar .MonthNavigation { border-bottom:solid 1px #ddd; clear:both; height:20px; padding:5px 10px 0 10px; }
+.MonthlyCalendar .MonthNavPrev, .MonthlyCalendar .MonthNavNext, .MonthlyCalendar .TodayLink { width:7%; float:left; }
+.MonthlyCalendar .YearNavNext, .MonthlyCalendar .YearNavPrev { width:10%; float:right; }
+.MonthlyCalendar .MonthName { width:59%; text-align:center; font-weight:bold; float:left;font-size:1.25em}
+
+
+.MonthlyCalendar { height:100%; width:100%; border:solid 1px #ddd; border-collapse:collapse; }
+.MonthlyCalendar #CalendarHead { width:100%; background:#F7F7F7 none repeat scroll 0 0; }
+.MonthlyCalendar #CalendarHead .DateHeader { width:14%; text-align:center; }
+
+.MonthlyCalendar #CalendarBody { }
+.DateBox { border:solid 1px #ddd;text-align:center}
+.DateBox:HOVER { border:solid 1px #ddd;text-align:center;background:#79CDCD}
+.DateBox a{font-size:1.5em;text-align:center;text-decoration:none;}
+#CalendarBody .Weekend a {color:#FF0000}
+.Today { background:#00CED1 none repeat scroll 0 0;text-align:center }
+
+#jMonthCalendar .Event { font-size:12px; padding:4px; background-color:#C0D0FF; margin-bottom:1px; -moz-border-radius:0 8px 8px 8px; border:solid 1px #000; cursor:pointer; display:block; }
+.Event a { text-decoration:none; color:#000; }
+.Event a:hover { text-decoration:underline; }
+
